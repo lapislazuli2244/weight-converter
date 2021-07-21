@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weight Converter</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Weight converter</h1>
+          <form>
+            <h4>
+              <input
+              id="input"
+              class="form-control form-control-lg text-center"
+              type="number"
+              placeholder="Enter in pounds"
+            />
+            </h4>
+            
+            <div id="output">
+
+              <div class="card bg-danger text-light">
+                <div class="card-header">
+                  <h4>weight in grams : <span id="grams"></span></h4>
+              </div>
+                
+                <div class="card bg-warning text-light ">
+                <div class="card-header">
+                  <h4>weight in kilograms:<span id="kg"></span></h4>
+                </div>
+
+                <div class="card bg-primary ">
+                <div class="card-header">
+                  <h4>weight in ounces : <span id="ounces"></span></h4>
+                </div>
+
+               
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
